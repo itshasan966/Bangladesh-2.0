@@ -233,7 +233,7 @@
 .pillars-container{
     display: flex;
     justify-content: flex-start;
-    gap: 40px;
+    gap: 30px;
     
 
 }
@@ -243,7 +243,7 @@
     width: 380px;
     height: 244px;
     border: 1px solid rgb(14, 14, 14,15%);
-    border-radius: 24px;
+    border-radius: 16px;
     margin-bottom: 80px;
 }.pillars-img{
     height: 72px;
@@ -271,6 +271,107 @@
     font-family: "Fira Sans";
     color: rgb(14, 14, 14,70%);
     padding: 10px 8px;
+
 }
+
+/* vision future section  */
+
+.vision-title{
+    margin-top: 80px;
+    width: 1580px;
+    height: 50px;
+    font-family: "Fira Sans";
+    font-size: 40px;
+    font-weight: bold;
+    line-height: auto;
+    text-align: start;
+    margin-bottom: 15px;
+}
+.vision-future{
+    max-width: 1580px;
+    height: 580px;
+    margin: 80px 200px 80px 200px;
+    margin-top: 80px;
+}
+.vision-description{
+    font-family: "Fira Sans";
+    width: 1500px;
+    height: 50px;
+    text-align: start;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color:rgb(14, 14, 14,70%); 
+    padding: 10px 50px 10px 0px ;
+    margin-bottom: 16px;
+
+}
+.vision-container{
+    margin-top: 16px;
+    display: flex;
+    justify-content: flex-start;
+    width: 1580px;
+    height: 330px;
+    gap: 35px;
+}
+.vision-column-1{
+    width: 480px;
+    height: 330px;
+    background-color: rgb(84,144 , 245,20%);
+    border-radius: 16px;
+}
+.vision-column-2{
+    width: 480px;
+    height: 330px;
+    background-color: rgb(198,228,214,100%);
+    border-radius: 16px;
+}
+.vision-column-3{
+    width: 480px;
+    height: 330px;
+    background-color: rgb(247,235,207,100%);
+    border-radius: 16px;
+}
+
+
+.vision-column-title{
+    width: 450px;
+    height: 27px;
+    font-family: "Fira Sans";
+    font-weight: bold;
+    line-height: auto;
+    font-size: 21px;
+    padding: 10px 12px;
+    margin-bottom: 5px;
+    color: rgb(14, 14, 14,80%);
+}
+.vision-img{
+    height: 72px;
+    width: 72px;
+    padding: 20px 12px;
+    padding-top: 30px;
+}
+.vision-column-description{
+    width: 450px;
+    height: 72px;
+    padding: 10px 12px;
+    padding-top: 10px;
+}
+
+.vision-btn{
+    width: 140px;
+    height: 42px;
+    border-radius: 9px;
+    padding: 10px 10px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: "Fira Sans";
+    text-align: center;
+    margin-left: 12px;
+    margin-bottom: 20px;
+}
+
 
 
